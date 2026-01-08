@@ -10,3 +10,5 @@ oggy.bike = "Pink Scooty"
 
 console.log("Jack", jack)
 console.log("Oggy", oggy)
+console.log("Oggy", oggy)
+console.log("Oggy", oggy)
