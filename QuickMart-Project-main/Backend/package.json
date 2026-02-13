@@ -1,0 +1,19 @@
+{
+  "name": "day-33-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json --watch --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
