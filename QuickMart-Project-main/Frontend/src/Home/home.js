@@ -69,13 +69,13 @@ async function saveCartToBackend() {
 
   try {
     // First, delete old cart for this user if exists
-    const cartsResponse = await fetch("http://localhost:3000/carts");
+    const cartsResponse = await fetch("https://javascript-b891.onrender.com");
     const carts = await cartsResponse.json();
     const userCart = carts.find((c) => c.userId === user.id);
 
     if (userCart) {
       // Update existing cart
-      await fetch(`http://localhost:3000/carts/${userCart.id}`, {
+      await fetch(`https://javascript-b891.onrender.com/carts/${userCart.id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
