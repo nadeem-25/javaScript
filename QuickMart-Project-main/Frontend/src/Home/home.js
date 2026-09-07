@@ -88,7 +88,7 @@ async function saveCartToBackend() {
       });
     } else {
       // Create new cart
-      await fetch("http://localhost:3000/carts", {
+      await fetch("https://javascript-b891.onrender.com/carts", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
